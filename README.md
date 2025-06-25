@@ -11,7 +11,8 @@ mini-projects/
 ├── voting-software/         # Terminal-based voting system in C
 ├── dsa-music-player/        # Music queue player using DSA concepts in C
 ├── converter-tkinter/       # Currency & temperature converter using Python Tkinter
-└── shift-register-verilog/  # Bitwise shift logic using Verilog HDL
+├── shift-register-verilog/  # Bitwise shift logic using Verilog HDL
+└── if-else-parser/          # Syntax validator for if-else structures using PLY (Python Lex-Yacc)
 ```
 
 ## 🔍 Project Details
@@ -36,11 +37,21 @@ mini-projects/
 - **Description**: Simulates shift-left and shift-right operations using registers and arrays.
 - **Highlights**: Bitwise logic, testbenches for simulation.
 
+### 🧠 if-else-parser/
+- **Language**: Python (PLY - Lex/Yacc)  
+- **Description**: A lexical analyzer and parser for validating the syntax of `if-else` statements written in a pseudo programming language.  
+- **Highlights**:  
+  - Tokenization using `ply.lex`  
+  - Grammar parsing using `ply.yacc`  
+  - Validates nested and flat `if-else` constructs with custom rules  
+  - Educational showcase of CFGs (Context-Free Grammars)
+
 ## 🛠️ Tech Used
 
 - C, Python, Verilog
 - Terminal I/O
 - GUI with Tkinter
+- PLY (Python Lex-Yacc)
 - HDL simulation tools (ModelSim or online simulators)
 
 ## 📚 Purpose
