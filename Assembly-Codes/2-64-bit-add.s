@@ -1,0 +1,24 @@
+.DATA   
+    A:.WORD 0X82345678
+    B:.WORD 0X12345710
+    C:.WORD 0X12355678
+    D:.WORD 0X11355710
+    SUM1:.WORD 0
+    SUM2:.WORD 0
+
+.TEXT
+    LDR R0,=A
+    LDR R1,=B
+    LDR R2,=C
+    LDR R3,=D
+    LDR R5,=SUM1
+    LDR R6,=SUM2
+    LDR R7,[R0]
+    LDR R8,[R1]
+    LDR R9,[R2]
+    LDR R10,[R3]
+    ADDS R11,R7,R8
+    ADC R12,R9,R10
+    STR R11,[R5]
+    STR R12,[R6]
+    SWI 0x011

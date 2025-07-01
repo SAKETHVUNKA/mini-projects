@@ -1,0 +1,17 @@
+.DATA
+    A:.word 0x012,0x030,0x056,0x002,0x123
+    B:.word 0x134,0x203,0x102,0x322,0x279
+    C:.word 0x0,0x0,0x0,0x0,0x0
+
+.TEXT
+    LDR R0,=A
+    LDR R1,=B
+    LDR R2,=C
+    MOV R3,#3
+    LDR R4,[R0,R3,LSL#2]
+    MOV R5,#2
+    LDR R6,[R1,R5,LSL#2]
+    MOV R8,#1
+    ADD R7,R4,R6
+    STR R7,[R2,R8,LSL#2]
+    SWI 0x11

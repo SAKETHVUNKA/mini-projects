@@ -1,8 +1,8 @@
 # 🧩 Mini Projects Collection
 
-This repository contains a curated set of small-scale projects and academic experiments developed as part of my learning journey in computer science. Each subproject demonstrates a specific concept — from basic I/O and GUI design to digital logic and data structure applications.
+This repository contains a curated set of small-scale projects and academic experiments developed as part of my learning journey in computer science. Each subproject demonstrates a specific concept — from basic I/O and GUI design to digital logic, data structures, and low-level assembly programming.
 
-These projects span multiple languages including **C**, **Python**, **Verilog**, **Solidity**, and are organized for easy exploration and reuse.
+These projects span multiple languages including **C**, **Python**, **Verilog**, **Solidity**, and **ARM Assembly**, and are organized for easy exploration and reuse.
 
 ## 📁 Project Structure
 
@@ -13,7 +13,8 @@ mini-projects/
 ├── converter-tkinter/       # Currency & temperature converter using Python Tkinter
 ├── if-else-parser/          # Syntax validator for if-else structures using PLY (Python Lex-Yacc)
 ├── shift-register-verilog/  # Bitwise shift logic using Verilog HDL
-└── ngo-donation-demo-solidity/       # Smart contract trial for NGO donations using Solidity
+├── ngo-donation-demo-solidity/  # Smart contract trial for NGO donations using Solidity
+└── Assembly-Codes/            # ARM assembly language experiments and algorithms
 ```
 
 ## 🔍 Project Details
@@ -56,6 +57,10 @@ mini-projects/
   - Donation history tracking and blacklist mechanism
   - Built for learning Solidity basics like `struct`, `mapping`, and `payable`
 
+### ⚙️ Assembly-Codes/
+- **Language**: ARM Assembly
+- **Description**: Collection of low-level assembly programs showcasing simple tasks and algorithms such as array operations, matrix addition, searches (linear, binary), bitwise operations, display logic for seven-segment modules etc.
+
 ## 🛠️ Tech Used
 
 - C, Python, Verilog, Solidity
@@ -63,6 +68,7 @@ mini-projects/
 - GUI with Tkinter
 - PLY (Python Lex-Yacc)
 - HDL simulation tools (ModelSim or online simulators)
+- ARM assembler tools
 
 ## 📚 Purpose
 
