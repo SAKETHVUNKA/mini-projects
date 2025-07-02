@@ -14,7 +14,8 @@ mini-projects/
 ├── if-else-parser/          # Syntax validator for if-else structures using PLY (Python Lex-Yacc)
 ├── shift-register-verilog/  # Bitwise shift logic using Verilog HDL
 ├── ngo-donation-demo-solidity/  # Smart contract trial for NGO donations using Solidity
-└── Assembly-Codes/            # ARM assembly language experiments and algorithms
+├── Assembly-Codes/              # ARM assembly language experiments and algorithms
+└── C-DSA-Basics/                # Collection of basic DSA programs in C
 ```
 
 ## 🔍 Project Details
@@ -60,6 +61,15 @@ mini-projects/
 ### ⚙️ Assembly-Codes/
 - **Language**: ARM Assembly
 - **Description**: Collection of low-level assembly programs showcasing simple tasks and algorithms such as array operations, matrix addition, searches (linear, binary), bitwise operations, display logic for seven-segment modules etc.
+
+#### 📄 C-DSA-Basics/
+- **Language**: C
+- **Description**: A collection of programs covering fundamental data structures and algorithms concepts.
+- **Highlights**:
+  - Arrays, linked lists (singly & doubly), binary search trees (BST), stacks, queues, and tries.
+  - Demonstrates insertion, deletion, searching, sorting, and merging operations.
+  - Useful as reference snippets or practice material for interviews and coursework.
+  
 
 ## 🛠️ Tech Used
 
