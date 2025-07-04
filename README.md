@@ -11,12 +11,12 @@ mini-projects/
 ├── voting-software/            # Terminal-based voting system in C
 ├── dsa-music-player/           # Music queue player using DSA concepts in C
 ├── converter-tkinter/          # Currency & temperature converter using Python Tkinter
-├── if-else-parser/            # Syntax validator for if-else structures using PLY (Python Lex-Yacc)
+├── if-else-parser/             # Syntax validator for if-else structures using PLY (Python Lex-Yacc)
 ├── shift-register-verilog/     # Bitwise shift logic using Verilog HDL
 ├── ngo-donation-demo-solidity/ # Smart contract trial for NGO donations using Solidity
-├── Assembly-Codes/            # ARM assembly language experiments and algorithms
-├── C-DSA-Basics/             # Collection of basic DSA programs in C
-└── Simple-Arduino/           # Basic Arduino codes and sensor-actuator experiments
+├── Assembly-Codes/             # ARM assembly language experiments and algorithms
+├── C-DSA-Basics/               # Collection of basic DSA programs in C
+└── Simple-Arduino/             # Basic Arduino codes and sensor-actuator experiments
 ```
 
 ## 🔍 Project Details
