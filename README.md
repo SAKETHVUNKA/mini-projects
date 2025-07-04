@@ -15,7 +15,7 @@ mini-projects/
 ├── ngo-donation-demo-solidity/  # Smart contract trial for NGO donations using Solidity
 ├── Assembly-Codes/              # ARM assembly language experiments and algorithms
 ├── C-DSA-Basics/                # Collection of basic DSA programs in C
-└── Simple-Arduino/             # Basic Arduino codes and sensor-actuator experiments
+└── Simple-Arduino/              # Basic Arduino codes and sensor-actuator experiments
 
 ## 🔍 Project Details
 
