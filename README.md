@@ -1,12 +1,11 @@
 # 🧩 Mini Projects Collection
 
-This repository contains a curated set of small-scale projects and academic experiments developed as part of my learning journey in computer science. Each subproject demonstrates a specific concept — from basic I/O and GUI design to digital logic, data structures, and low-level assembly programming.
+This repository contains a curated set of small-scale projects and academic experiments developed as part of my learning journey in computer science. Each subproject demonstrates a specific concept — from basic I/O and GUI design to digital logic, data structures, embedded systems, and low-level assembly programming.
 
-These projects span multiple languages including **C**, **Python**, **Verilog**, **Solidity**, and **ARM Assembly**, and are organized for easy exploration and reuse.
+These projects span multiple languages including **C**, **Python**, **Verilog**, **Solidity**, **ARM Assembly**, and **Arduino**, and are organized for easy exploration and reuse.
 
 ## 📁 Project Structure
 
-```
 mini-projects/
 ├── voting-software/         # Terminal-based voting system in C
 ├── dsa-music-player/        # Music queue player using DSA concepts in C
@@ -15,8 +14,8 @@ mini-projects/
 ├── shift-register-verilog/  # Bitwise shift logic using Verilog HDL
 ├── ngo-donation-demo-solidity/  # Smart contract trial for NGO donations using Solidity
 ├── Assembly-Codes/              # ARM assembly language experiments and algorithms
-└── C-DSA-Basics/                # Collection of basic DSA programs in C
-```
+├── C-DSA-Basics/                # Collection of basic DSA programs in C
+└── Simple-Arduino/             # Basic Arduino codes and sensor-actuator experiments
 
 ## 🔍 Project Details
 
@@ -62,18 +61,24 @@ mini-projects/
 - **Language**: ARM Assembly
 - **Description**: Collection of low-level assembly programs showcasing simple tasks and algorithms such as array operations, matrix addition, searches (linear, binary), bitwise operations, display logic for seven-segment modules etc.
 
-#### 📄 C-DSA-Basics/
+### 📄 C-DSA-Basics/
 - **Language**: C
 - **Description**: A collection of programs covering fundamental data structures and algorithms concepts.
 - **Highlights**:
   - Arrays, linked lists (singly & doubly), binary search trees (BST), stacks, queues, and tries.
   - Demonstrates insertion, deletion, searching, sorting, and merging operations.
   - Useful as reference snippets or practice material for interviews and coursework.
-  
+
+### 🔌 Simple-Arduino/
+- **Language**: Arduino (C/C++)
+- **Description**: Basic Arduino programs and sensor-actuator experiments.
+- **Highlights**:
+  - Simple codes for buzzer, RGB LED, servo motor, soil moisture sensor.
+  - Combined example integrating ultrasonic sensor, buzzer, and servo.
 
 ## 🛠️ Tech Used
 
-- C, Python, Verilog, Solidity
+- C, Python, Verilog, Solidity, Arduino (C/C++)
 - Terminal I/O
 - GUI with Tkinter
 - PLY (Python Lex-Yacc)
@@ -88,10 +93,10 @@ These projects serve as foundational exercises, useful for:
 
 ## 📄 License
 
-This repository is licensed under the [MIT License](LICENSE).  
+This repository is licensed under the MIT License.  
 You are free to use, modify, and distribute with proper attribution.
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by [Naga Saketh V](https://github.com/SAKETHVUNKA)  
+Made with ❤️ by Naga Saketh V  
 Find more at my [GitHub profile](https://github.com/SAKETHVUNKA)
